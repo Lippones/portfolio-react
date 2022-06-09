@@ -1,0 +1,90 @@
+@import '../../commun/style.scss';
+#container{
+    height: 100vh;
+}
+#info{
+    padding-left: 30vh;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 134, 0.5), rgba(0, 0, 0, 0.8)),
+                  url("../../assets/Img/wallpaper.jpg");
+    background-size: cover;
+    div{
+        margin-top: 20px;
+    }
+}
+
+footer{
+    bottom: 0;
+}
+
+.header{
+    
+    transition: all ease 0.5s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        padding: 10px 0;
+        transition: all ease 0.5s;
+        
+    }
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: $titulo;
+        color: #FFF;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        padding: 0 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: 0.3s;
+        font-family: $paragrafo;
+    }
+    a{
+        text-decoration: none;
+        color: $cortitulo;
+        cursor: pointer;
+    }
+
+}
+
+#focus{
+    color: $cordestaque;
+}
+
+.ativo{
+    background-color: $corheader;
+    position:fixed;
+    width: 100%;
+    div{
+        height: 6vh;
+    }
+}
+.contato{
+    margin-left: 7vh;
+    cursor: pointer;
+}
+
+.projects{
+    
+}
+
+@media screen and (max-width:1200px){
+    #info{
+        padding-left: 10vh;
+    }
+}
