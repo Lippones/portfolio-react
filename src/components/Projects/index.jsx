@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from './Projects.module.scss'
 
 export default function Projects(){
     const [repositories, setRepositories] = useState([]);
@@ -14,21 +15,25 @@ export default function Projects(){
 
 
     return(
-        <>
-           <ul>
-           {repositories.map(repository =>{
-                       return(
-                         <li>
-                             <div>
-                                 <h3>
-                                    {repository.name}
-                                 </h3>
-                                 <p>{repository.description}</p>
-                             </div>
-                         </li>  
-                       ) 
-                    })}
-           </ul>
-        </>
+           <>
+               <div className={styles.container}>
+                   <ul className={styles.list}>
+                       {repositories.map(repository =>{
+                                   return(
+                                     <>
+                                        {repository.has_pages && (
+                                        <li className={styles.item} key={repository.id}>
+                                                <a href={repository.html_url} target="_blank">
+                                                   {repository.name}
+                                                </a>
+                                                <p>{repository.description}</p>
+                                        </li>
+                                        )}
+                                     </>
+                                   ) 
+                                })}
+                   </ul>
+               </div>
+           </>
     )
 }

@@ -2,7 +2,7 @@
 #container{
     height: 100vh;
 }
-#info{
+.info{
     padding-left: 30vh;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 134, 0.5), rgba(0, 0, 0, 0.8)),
@@ -80,7 +80,19 @@ footer{
 }
 
 .projects{
-    
+    padding-bottom: 10vh;
+    background-color: #080713;
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #fafafa;
+        font-family: $paragrafo;
+        margin-bottom: 3vh;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 5vh;
+    }
 }
 
 @media screen and (max-width:1200px){

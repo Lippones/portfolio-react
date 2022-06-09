@@ -1,0 +1,55 @@
+@import '../../commun/style.scss';
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5rem 0;
+    margin-right: 20px;
+    height: 15vh;
+    background-color: #0B0A17;
+    p{
+        color: #fafafa;
+        font-family: $paragrafo;
+        margin-left: 1rem;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        padding: 0.7rem 0;
+    }
+    h3{
+        font-family: $paragrafo;
+        color: #fafafa;
+        font-weight: bold;
+        padding: 1rem;
+    }
+}
+.icons{
+    color: #fafafa;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #2c2c2c;
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    ul{
+        display: flex;
+        margin: 2vh 0;
+    }
+}
+.iconsRedes{
+    color: #fafafa;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    padding: 0.7rem;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}

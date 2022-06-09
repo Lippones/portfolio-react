@@ -4,6 +4,7 @@ import Info from '../../components/Info';
 import Button from '../../components/Button';
 import Cv from '../../assets/Img/cv.pdf'
 import Projects from '../../components/Projects';
+import Footer from '../../components/Footer';
 function App() {
   const [header, setHeader]=useState(false);
     
@@ -46,16 +47,21 @@ function App() {
         </div>
       </header>
       <main className={styles.container}>
-        <section ref={homeRef} id={styles.info}>
+        <section ref={homeRef} className={styles.info}>
           <Info/>
           <div>
             <Button link={Cv}>Currículo</Button>
             <a className={styles.contato} onClick={scrollToContatos}><Button theme="white">Contato</Button></a>
           </div>
         </section>
-        <section id={styles.projects}><Projects/></section>
+        <section className={styles.projects}>
+          <h2>meus projetos</h2>
+          <Projects/>
+          </section>
       </main>
-      <footer>bbbbbbb</footer>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
