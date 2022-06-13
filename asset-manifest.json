@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Lippones/portfolio-react/static/css/main.3b55fd80.css",
-    "main.js": "/Lippones/portfolio-react/static/js/main.4ff020ac.js",
-    "static/media/wallpaper.jpg": "/Lippones/portfolio-react/static/media/wallpaper.c6c7e52f998db761b7cf.jpg",
-    "static/media/cv.pdf": "/Lippones/portfolio-react/static/media/cv.547dd88edb8c7866fff1.pdf",
-    "index.html": "/Lippones/portfolio-react/index.html",
-    "main.3b55fd80.css.map": "/Lippones/portfolio-react/static/css/main.3b55fd80.css.map",
-    "main.4ff020ac.js.map": "/Lippones/portfolio-react/static/js/main.4ff020ac.js.map"
+    "main.css": "/portfolio-react/static/css/main.2c53961e.css",
+    "main.js": "/portfolio-react/static/js/main.a2745274.js",
+    "static/media/wallpaper.jpg": "/portfolio-react/static/media/wallpaper.c6c7e52f998db761b7cf.jpg",
+    "static/media/cv.pdf": "/portfolio-react/static/media/cv.547dd88edb8c7866fff1.pdf",
+    "index.html": "/portfolio-react/index.html",
+    "main.2c53961e.css.map": "/portfolio-react/static/css/main.2c53961e.css.map",
+    "main.a2745274.js.map": "/portfolio-react/static/js/main.a2745274.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b55fd80.css",
-    "static/js/main.4ff020ac.js"
+    "static/css/main.2c53961e.css",
+    "static/js/main.a2745274.js"
   ]
 }
