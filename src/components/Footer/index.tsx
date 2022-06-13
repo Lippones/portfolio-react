@@ -32,7 +32,7 @@ export default function Footer(){
                         <li><IoLogoLinkedin className={styles.iconsRedes}/></li>
                         <li><AiFillGithub className={styles.iconsRedes}/></li>
                     </ul>
-                    <p>© 2022 Filipe Vieira</p>
+                    <p>© 2022 Filipe Vieira da Silva</p>
                 </section>
             </div>
         </>

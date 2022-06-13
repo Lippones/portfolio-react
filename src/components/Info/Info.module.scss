@@ -3,9 +3,8 @@
 .paragrafo{
     display: flex;
     flex-direction: column;
-    width:40%;
+    width:50%;
     align-items: flex-start;
-    
     h2{
     font-size: 40px;
     font-weight: bold;
@@ -15,11 +14,6 @@
     padding-top: 20vh;
     margin-bottom: 3vh;
     
-    }
-    h2::after{
-        content: "Filipe Vieira";
-        color: $cordestaque;
-        cursor: text;
     }
     p{
         margin: 10px 0;
