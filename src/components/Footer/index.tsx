@@ -27,10 +27,10 @@ export default function Footer(){
                     <h3>Redes sociais</h3>
                     <p>Mais formas de contato a abaixo</p>
                     <ul>
-                        <li><IoLogoWhatsapp className={styles.iconsRedes}/></li>
-                        <li><AiFillInstagram className={styles.iconsRedes}/></li>
-                        <li><IoLogoLinkedin className={styles.iconsRedes}/></li>
-                        <li><AiFillGithub className={styles.iconsRedes}/></li>
+                        <li><a href='https://api.whatsapp.com/send?1=pt_BR&phone=5533998483690' target="_blank" rel="noreferrer"><IoLogoWhatsapp className={styles.iconsRedes}/></a></li>
+                        <li><a href='https://www.instagram.com/filipev.silva/' target="_blank" rel="noreferrer"><AiFillInstagram className={styles.iconsRedes}/></a></li>
+                        <li><a href='https://www.linkedin.com/in/filipe-vieira-03199720b/' target="_blank" rel="noreferrer"><IoLogoLinkedin className={styles.iconsRedes}/></a></li>
+                        <li><a href='https://github.com/Lippones' target="_blank" rel="noreferrer"><AiFillGithub className={styles.iconsRedes}/></a></li>
                     </ul>
                     <p>© 2022 Filipe Vieira da Silva</p>
                 </section>
