@@ -22,7 +22,8 @@ export default function Info(){
                 }}
                 />
             </h2>
-            <div><p>Sou desenvolvedor Front-End júnior, nesse site você encontrara informações ao meu respeito, como meus conhecimentos, currículo e informações de contato.</p></div>
+            <div><p>Nesse site você encontrara informações ao meu respeito, como meus conhecimentos, currículo e informações de contato.Sou desenvolvedor Front-End junior, estou cursando Sistemas de Informação e estou sempre em busca de conhecimento e aprender novas tecnologias
+</p></div>
         </section>
     )
 }
